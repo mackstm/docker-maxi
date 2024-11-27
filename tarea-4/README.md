@@ -103,6 +103,6 @@ Version: '11.6.2-MariaDB-ubu2404'  socket: '/run/mysqld/mysqld.sock'  port: 3306
 
 ### Conectar a MariaDB <a name="index05"></a>
 
-
+<img src="img/img06.png"/>
 
 </div>
