@@ -8,7 +8,6 @@
 - [Crear Red Docker](#index02)
 - [Levantar servidores Tomcat](#index03)
 - [Configuración NGINX](#index04)
-- [Verificación](#index05)
 
 ### Redes disponibles <a name="index01"></a>
 
@@ -26,10 +25,8 @@
 
 <img src="img/img04.png"/>
 
+<img src="img/img05.png"/>
 
-
-### Verificación <a name="index05"></a>
-
-
+<img src="img/img06.png"/>
 
 </div>
