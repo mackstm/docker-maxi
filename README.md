@@ -5,3 +5,4 @@
 - [Instalación](tarea-2)
 - [Primera App](tarea-3)
 - [BBDD](tarea-4)
+- [Balanceador NGINX](tarea-5)
