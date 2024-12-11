@@ -1,0 +1,19 @@
+# Usar una imagen base de Ubuntu para las instalaciones adicionales
+FROM ubuntu:20.04
+
+# Instalar dependencias necesarias (como wget y curl)
+RUN apt-get update -y && \
+    apt-get install -y \
+    wget \
+    curl \
+    unzip \
+    mysql-client \
+    && rm -rf /var/lib/apt/lists/*
+
+
+# Configurar Tomcat usando la imagen oficial
+FROM tomcat:latest
+
+COPY ./assets/sample.war /usr/local/tomcat/webapps
+
+EXPOSE 8080

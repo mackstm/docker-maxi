@@ -1,0 +1,11 @@
+# Configurar MariaDB usando la imagen oficial
+FROM mariadb:latest
+
+# Volúmenes para MariaDB    
+VOLUME tarea-7-volume
+
+# Configuración de MariaDB: Establecer la contraseña root y crear la base de datos (esto es suficiente con las variables de entorno)
+ENV MYSQL_ROOT_PASSWORD=root
+ENV MYSQL_DATABASE=exampledb
+
+EXPOSE 3306
