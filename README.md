@@ -8,3 +8,4 @@
 - [Balanceador NGINX](tarea-5)
 - [Volúmenes](tarea-6)
 - [Construcción de Dockerfile](tarea-7)
+- [Solución basada en servicios](tarea-8)
